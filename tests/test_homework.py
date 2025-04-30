@@ -9,7 +9,7 @@ import homework.word_count as wc
 
 def test_01():
     """Test Word Count"""
-
+    wc.copy_raw_files_to_input_folder(n=1000)
     wc.run_job(
         "files/input",
         "files/output",
